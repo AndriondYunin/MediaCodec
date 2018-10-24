@@ -17,8 +17,11 @@
         android:text="登陆成功"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.72" />
+
+    <SurfaceView android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/surface"/>
 </android.support.constraint.ConstraintLayout>
